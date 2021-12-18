@@ -1,0 +1,452 @@
+body {
+    background-color: green;
+}
+
+ /* CARTA 2 Y ANIMACION */
+
+ @keyframes mov-cart-2 {
+     0% {
+         bottom: 10px;
+         left: 50px;
+
+     }
+     100% { 
+         top: 10px;
+        left: 50px;
+        transform: rotate(180deg);
+     }
+ }
+
+.dos_treboles {
+    animation-name: mov-cart-2;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    height: 170px;
+    width: 120px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border: black 2px solid;
+    bottom: 10px;
+    left: 50px;
+
+}
+
+.arriba2 {
+    bottom: 120px;
+    left: 10px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.abajo2 {
+    bottom: 10px;
+    left: 100px;
+    position: absolute;
+    transform: rotate(180deg);
+    font-size: 20px;
+}
+
+.treboles1-2 {
+    position: absolute;
+    bottom: 110px;
+    left: 50px;
+    font-size: 30px;
+}
+
+.treboles2-2 {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    font-size: 30px;
+    transform: rotate(180deg);
+}
+
+/* CARTA 3 Y ANIMACION */
+
+@keyframes mov-cart-3 {
+    0% {
+        bottom: 10px;
+        left: 50px;
+
+    }
+    100% { 
+        top: 10px;
+       left: 200px;
+       transform: rotate(180deg);
+    }
+}
+
+.tres_picas {
+   animation-name: mov-cart-3;
+   animation-duration: 6s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   position: absolute;
+   height: 170px;
+   width: 120px;
+   background-color: rgb(230, 230, 230);
+   border-radius: 10px;
+   border: black 2px solid;
+   bottom: 10px;
+   left: 50px;
+
+}
+
+.arriba3 {
+   bottom: 120px;
+   left: 10px;
+   position: absolute;
+   font-size: 20px;
+}
+
+.abajo3 {
+   bottom: 10px;
+   left: 100px;
+   position: absolute;
+   transform: rotate(180deg);
+   font-size: 20px;
+}
+
+.picas1-3 {
+   position: absolute;
+   bottom: 110px;
+   left: 50px;
+   font-size: 30px;
+   transform: rotate(180deg);
+}
+
+.picas2-3 {
+   position: absolute;
+   bottom: 70px;
+   left: 50px;
+   font-size: 30px;
+   transform: rotate(0deg);
+   transform: rotate(180deg);
+}
+
+.picas3-3 {
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    font-size: 30px;
+    transform: rotate(0deg);
+    transform: rotate(180deg);
+ }
+
+
+ /* CARTA 4 Y ANIMACION */
+
+ @keyframes mov-cart-4 {
+    0% {
+        bottom: 10px;
+        left: 50px;
+
+    }
+    100% { 
+        top: 10px;
+       left: 350px;
+       transform: rotate(180deg);
+    }
+}
+
+.cuatro_picas {
+   animation-name: mov-cart-4;
+   animation-duration: 6s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   position: absolute;
+   height: 170px;
+   width: 120px;
+   background-color: rgb(230, 230, 230);
+   border-radius: 10px;
+   border: black 2px solid;
+   bottom: 10px;
+   left: 50px;
+
+}
+
+.arriba4 {
+   bottom: 120px;
+   left: 10px;
+   position: absolute;
+   font-size: 20px;
+}
+
+.abajo4 {
+   bottom: 10px;
+   left: 100px;
+   position: absolute;
+   transform: rotate(180deg);
+   font-size: 20px;
+}
+
+.treboles1-4 {
+   position: absolute;
+   bottom: 110px;
+   left: 30px;
+   font-size: 30px;
+   transform: rotate(0deg);
+}
+
+.treboles2-4 {
+   position: absolute;
+   bottom: 110px;
+   left: 70px;
+   font-size: 30px;
+   transform: rotate(0deg);
+}
+
+.treboles3-4 {
+    position: absolute;
+    bottom: 30px;
+    left: 32px;
+    font-size: 30px;
+    transform: rotate(180deg);
+ }
+
+ .treboles4-4 {
+    position: absolute;
+    bottom: 30px;
+    left: 73px;
+    font-size: 30px;
+    transform: rotate(180deg);
+ }
+
+
+  /* CARTA 5 Y ANIMACION */
+
+  @keyframes mov-cart-5 {
+    0% {
+        bottom: 10px;
+        left: 50px;
+
+    }
+    100% { 
+        top: 10px;
+       left: 650px;
+       transform: rotate(180deg);
+    }
+}
+
+.cinco_corazones {
+   animation-name: mov-cart-5;
+   animation-duration: 6s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   position: absolute;
+   height: 170px;
+   width: 120px;
+   background-color: rgb(230, 230, 230);
+   border-radius: 10px;
+   border: black 2px solid;
+   bottom: 10px;
+   left: 50px;
+
+}
+
+.arriba5 {
+   bottom: 120px;
+   left: 10px;
+   position: absolute;
+   font-size: 20px;
+}
+
+.abajo5 {
+   bottom: 10px;
+   left: 100px;
+   position: absolute;
+   transform: rotate(180deg);
+   font-size: 20px;
+}
+
+.corazones1-5 {
+   position: absolute;
+   bottom: 110px;
+   left: 30px;
+   font-size: 30px;
+    color: red;
+
+    animation-name: mov-cart-5-5;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.corazones2-5 {
+   position: absolute;
+   bottom: 110px;
+   left: 70px;
+   font-size: 30px;
+   transform: rotate(0deg);
+    color: red;
+
+    animation-name: mov-cart-5-5;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.corazones3-5 {
+    position: absolute;
+    bottom: 70px;
+    left: 51px;
+    font-size: 30px;
+    transform: rotate(0deg);
+    color: red;
+
+    animation-name: mov-cart-5-5;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.corazones4-5 {
+    position: absolute;
+    bottom: 30px;
+    left: 32px;
+    font-size: 30px;
+    transform: rotate(0deg);
+    color: red;
+
+    animation-name: mov-cart-5-5;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+ }
+
+.corazones5-5 {
+    position: absolute;
+    bottom: 30px;
+    left: 73px;
+    font-size: 30px;
+    transform: rotate(0deg);
+    color: red;
+
+    animation-name: mov-cart-5-5;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+ }
+
+ @keyframes mov-cart-5-5 {
+    0% {
+        
+        
+
+    }
+    100% { 
+    
+       
+       transform: rotate(180deg);
+    }
+}
+
+
+
+ /* CARTA 7 Y ANIMACION */
+
+ @keyframes mov-cart-7 {
+    0% {
+        bottom: 10px;
+        left: 50px;
+
+    }
+    100% { 
+        top: 10px;
+       left: 500px;
+       transform: rotate(180deg);
+    }
+}
+
+.siete_treboles {
+   animation-name: mov-cart-7;
+   animation-duration: 6s;
+   animation-delay: 1s;
+   animation-fill-mode: forwards;
+   position: absolute;
+   height: 170px;
+   width: 120px;
+   background-color: rgb(230, 230, 230);
+   border-radius: 10px;
+   border: black 2px solid;
+   bottom: 10px;
+   left: 50px;
+
+}
+
+.arriba7 {
+   bottom: 120px;
+   left: 10px;
+   position: absolute;
+   font-size: 20px;
+}
+
+.abajo7 {
+   bottom: 10px;
+   left: 100px;
+   position: absolute;
+   transform: rotate(180deg);
+   font-size: 20px;
+}
+
+.treboles1-7 {
+   position: absolute;
+   bottom: 110px;
+   left: 30px;
+   font-size: 30px;
+   transform: rotate(0deg);
+}
+
+.treboles2-7 {
+   position: absolute;
+   bottom: 110px;
+   left: 70px;
+   font-size: 30px;
+   transform: rotate(0deg);
+}
+
+.treboles3-7 {
+    position: absolute;
+    bottom: 30px;
+    left: 32px;
+    font-size: 30px;
+    transform: rotate(180deg);
+ }
+
+ .treboles4-7 {
+    position: absolute;
+    bottom: 30px;
+    left: 73px;
+    font-size: 30px;
+    transform: rotate(180deg);
+ }
+
+ .treboles5-7 {
+    position: absolute;
+    bottom: 110px;
+    left: 70px;
+    font-size: 30px;
+    transform: rotate(0deg);
+ }
+ 
+ .treboles6-7 {
+     position: absolute;
+     bottom: 30px;
+     left: 32px;
+     font-size: 30px;
+     transform: rotate(180deg);
+  }
+ 
+  .treboles7-7 {
+     position: absolute;
+     bottom: 30px;
+     left: 73px;
+     font-size: 30px;
+     transform: rotate(180deg);
+  }
+ 
+
+ 
+ 
